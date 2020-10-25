@@ -3,12 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Project</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
-    
+    <header>
+        <div class="header-left">
+            <img class="logo" src="assets/img/ramen.webp" alt="ヘッダーの画像">
+
+        </div>
+        <div class="header-right">
+            <ul class="nav">
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="#map">MAP</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="welcome">
+            <h1 class="title">天下分け麺</h1>
+            <ul class="guideline">
+                <li>最高の一杯を味わう</li>
+                <li>10月26日（MON）</li>
+                <li>NEW OPEN</li>
+            </ul>
+        </section>
+
+        <section id="menu">
+            <h2>MENU</h2>
+            <div class="contents-1">
+                <p class="description">
+                    しょうゆらーめん<br><br>
+                    ほんのり香る魚の風味と、どこか懐かしい素朴な<br>
+                    味わいが人気。<br>
+                    チャーシューの旨味を最大限に活かすこだわりの<br>
+                    醤油スープを是非一度ご賞味ください。
+                </p>
+                <img src="./assets/img/syouyu.png" alt="">
+            </div>
+
+            <div class="contents-2">
+                <p class="description">
+                    辛味噌らーめん<br><br>
+                    秘伝の味噌ダレに厳選した三種類の唐辛子を<br>
+                    加えた「辛味噌らーめん」。<br>
+                    味噌のコクと辛みがクセになる、おすすめの<br>
+                    一品です。
+                    
+                </p>
+                <img src="./assets/img/miso.png" alt="">             
+            </div>
+
+            <div class="contents-3">                
+                <p class="description">
+                    しおらーめん<br><br>
+                    天下分け麺の「しおらーめん」は最後の一滴まで<br>
+                    飲める白濁の豚骨スープが自慢。<br>
+                    旨味と香り、やさしい味わいが際立った一杯を<br>
+                    お楽しみください。
+                </p>
+                <img src="./assets/img/sio.png" alt="">
+                
+            </div>
+        </section>
+
+        <section id="map">
+            <h3 id="map">MAP</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.401317304468!2d136.45943541517022!3d35.37050125455799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600234cb25600a0b%3A0xb5f530626b6d324a!2z6Zai44O25Y6f5Y-k5oim5aC0IOaxuuaIpuWcsA!5e0!3m2!1sja!2sjp!4v1603646812184!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            Copyright © 2020天下分け麺 All Rights Reserved.
+        </div>
+
+    </footer>
+   
 </body>
 </html>
